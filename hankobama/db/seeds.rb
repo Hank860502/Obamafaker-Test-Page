@@ -1,14 +1,14 @@
-10.times do(
-	Article.create(sentence: Faker::Hacker.say_something_smart, image_url: Faker::Avatar.image)
+21.times do(
+	Article.create(sentence: Faker::Hacker.say_something_smart, image_url: Faker::Avatar.image("my-own-slug", "50x50"))
 		)
 end
 
-10.times do(
+9.times do(
 	Article.create(sentence: Obama::Saying.sentence, image_url: Obama::Image.serious)
 		)
 end
 
-10.times do(
+9.times do(
 	Article.create(sentence: Obama::Saying.sentence, image_url: Obama::Image.funny)
 		)
 end
