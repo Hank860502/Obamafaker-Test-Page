@@ -26,9 +26,21 @@
 }
 
 #thumb_up{
-	padding-left: 80px;
+	padding-right: 10px;
 }
 
 #thumb_down{
-	padding-right: 80px;
+	padding-right: 10px;
+}
+
+body{
+	background-color: AntiqueWhite; 
+}
+
+#bootcamp{
+	width: 200px;
+  height: 90px;
+	position: absolute;
+	top: 0px;
+	left: 5px;
 }
