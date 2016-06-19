@@ -17,3 +17,18 @@
 	height: 300px;
 	width: 300px;
 }
+
+
+.page{
+	background-color: black;
+	opacity: 0.2;
+
+}
+
+#thumb_up{
+	padding-left: 80px;
+}
+
+#thumb_down{
+	padding-right: 80px;
+}

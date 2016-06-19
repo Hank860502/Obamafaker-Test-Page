@@ -1,20 +1,22 @@
-<% @articles.each_slice(3) do |article_array| %>
-	<div class="row">
-	<% article_array.each do |article| %>
-		<div class="col l4 m6 s12">
-		  <div class="card medium" id="card">
-		    <div class="card-image waves-effect waves-block waves-light">
-		      <img class="activator" src="<%= article.image_url %>">
-		    </div>
-		    <div class="card-content">
-		      <span class="card-title activator grey-text text-darken-4">Best quotes<i class="material-icons right">more_vert</i></span>
-		    </div>
-		    <div class="card-reveal">
-		      <span class="card-title grey-text text-darken-4">Obama once says: <i class="material-icons right">close</i></span>
-		      <p><%= article.sentence %></p>
-		    </div>
+<div class="container" id= "container">
+	<% @articles.each_slice(3) do |article_array| %>
+		<div class="row">
+		<% article_array.each do |article| %>
+			<div class="col l4 m6 s12">
+			  <div class="card medium" id="card">
+			    <div class="card-image waves-effect waves-block waves-light">
+			      <img class="activator" src="<%= article.image_url %>">
+			    </div>
+			    <div class="card-content">
+			      <span class="card-title activator grey-text text-darken-4">Best quotes<i class="material-icons right">more_vert</i></span>
+			    </div>
+			    <div class="card-reveal">
+			      <span class="card-title grey-text text-darken-4">Obama once says: <i class="material-icons right">close</i></span>
+			      <p><%= article.sentence %></p>
+			    </div>
+			  </div>
 		  </div>
-	  </div>
+		<% end %>
+		</div>
 	<% end %>
-	</div>
-<% end %>
+</div>
