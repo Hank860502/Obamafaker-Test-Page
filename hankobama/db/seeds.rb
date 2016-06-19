@@ -12,3 +12,13 @@ end
 	Article.create(sentence: Obama::Saying.sentence, image_url: Obama::Image.funny)
 		)
 end
+
+9.times do(
+	Article.create(sentence: Trumpy::Saying.sentence, image_url: Trumpy::Image.funny)
+		)
+end
+
+9.times do(
+	Article.create(sentence: Trumpy::Saying.sentence, image_url: Trumpy::Image.serious)
+		)
+end
