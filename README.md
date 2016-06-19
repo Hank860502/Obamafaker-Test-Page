@@ -1,3 +1,3 @@
 # Obamafaker-Test-Page
-### A Web To Test My Obama Gem
-### A page to demo my gem and compare to the faker gem
+### Testing My Obama Gem and Trumpy Gem Through a Simple Web Page
+### Compare the Faker Gem to my Gems in three pages.
